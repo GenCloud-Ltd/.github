@@ -5,4 +5,4 @@ GenCloud Ltd. is a high-tech software company with 20 years of experience in the
 GenCloud specializes in Internet and cloud-based business systems. Our main product is Bizzio.
 
 ### 🏆 Топ контрибютори
-![Contributors Stats](./github-metrics.svg)
+![Contributors Stats](../github-metrics.svg)
