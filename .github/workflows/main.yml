@@ -10,6 +10,8 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+          config_timezone: Europe/Sofia
           plugin_contributors: yes
+          plugin_contributors_base: ""
           plugin_contributors_sections: contributors
           plugin_contributors_categories: commits
