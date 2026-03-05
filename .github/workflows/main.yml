@@ -1,7 +1,7 @@
 name: Metrics
 on:
-  schedule: [{cron: "0 0 * * *"}] # Обновява се всяка нощ в 00:00
-  workflow_dispatch: # Позволява ръчно пускане
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -10,21 +10,22 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: GenCloud-Ltd
-          base: ""
           template: classic
+          base: header, activity, community, repositories, metadata # Включваме базата, за да сме сигурни, че ще напълни SVG-то
           
-          # Основни настройки
-          config_timezone: Europe/Sofia
-          repositories_batch: 20 # Оптимално за скорост
+          # КРИТИЧНО ЗА ОРГАНИЗАЦИИ И PRIVATE REPOS:
+          base_entity_user: no
+          config_allow_variant_repositories: yes
+          repositories_affiliations: owner, collaborator
+          repositories_batch: 50
           
-          # Плъгин за контрибютори (Класация по комити)
+          # Плъгин за контрибютори
           plugin_contributors: yes
           plugin_contributors_contributions: yes
           plugin_contributors_sections: contributors
           plugin_contributors_categories: commits
           
-          # Добавяме и визуален списък с аватари на хората
+          # Плъгин за хора
           plugin_people: yes
           plugin_people_types: contributors
-          plugin_people_limit: 28
-          plugin_people_size: 28
+          plugin_people_limit: 24
