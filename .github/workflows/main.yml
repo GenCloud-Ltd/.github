@@ -17,7 +17,7 @@ jobs:
           base_entity_user: no
           config_allow_variant_repositories: yes
           repositories_affiliations: owner, collaborator
-          repositories_batch: 50
+          repositories_batch: 10
           
           # Плъгин за контрибютори
           plugin_contributors: yes
