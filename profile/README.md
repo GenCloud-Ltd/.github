@@ -8,7 +8,7 @@
 
 </div>
 
-<hr/>
+<hr style="border-width:0.25px"/>
 
 > **БГ**
 
@@ -20,7 +20,7 @@
 
 Наш основен продукт е **Bizzio**, като той е екосистема от множество интегрирани решения: ERP, CRM, WMS, B2B, E-COMMERCE, API, ... Всички те са cloud базирани, достъпни през интернет и работещи по модела SaaS. Фокус при всичките ни продукти е **СИГУРНОСТТА** + достъпност, модулност и леснота на използване.
 
-<hr/>
+<hr style="border-width:0.25px"/>
 
 > **EN**
 
@@ -32,6 +32,6 @@
 
 Our main product is **Bizzio**, which is an ecosystem of multiple integrated solutions: ERP, CRM, WMS, B2B, E-COMMERCE, API, ... All of them are cloud-based, accessible via the Internet and operating on the SaaS model. The focus of all our products is **SECURITY** + accessibility, modularity and ease of use.
 
-<hr/>
+<hr style="border-width:0.25px"/>
 
 [GENCLOUD.BG](https://gencloud.bg)
