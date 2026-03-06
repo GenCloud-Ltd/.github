@@ -2,9 +2,9 @@
 
 <img src='https://gencloud.bg/img/logo_gencloud%202.png' alt='GenCloud Ltd | ERP + CRM, WMS, B2B, E-commerce, API, and more...'/>
 
-### GENCLOUD
+## GENCLOUD
 
-#### ERP + CRM, WMS, B2B, E-commerce, API, AI Agents, ...
+### ERP + CRM, WMS, B2B, E-commerce, API, AI Agents, ...
 
 </div>
 
