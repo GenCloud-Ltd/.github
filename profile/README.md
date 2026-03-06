@@ -1,6 +1,10 @@
+<div align="center">
+
 <img src='https://gencloud.bg/img/logo_gencloud%202.png' alt='GenCloud Ltd | ERP + CRM, WMS, B2B, E-commerce, API, and more...'/>
 
 # GENCLOUD
+
+</div>
 
 ## ERP + CRM, WMS, B2B, E-commerce, API, AI Agents, ...
 
@@ -21,4 +25,4 @@
 Our main product is **Bizzio**, which is an ecosystem of multiple integrated solutions: ERP, CRM, WMS, B2B, E-COMMERCE, API, ... All of them are cloud-based, accessible via the Internet and operating on the SaaS model. The focus of all our products is **SECURITY** + accessibility, modularity and ease of use.
 
 
-[gencloud.bg](https://gencloud.bg)
+[GENCLOUD.BG](https://gencloud.bg)
