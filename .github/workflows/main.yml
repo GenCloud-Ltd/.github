@@ -11,24 +11,21 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: GenCloud-Ltd
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: header # Запазваме само хедъра за заглавие
           
-          # ТОВА ФИКСИРА ОРГАНИЗАЦИЯТА
-          base_entity_user: no             # Казваме, че не е личен профил
-          repositories_affiliations: owner # Гледаме само проекти на организацията
+          # КРИТИЧНИ НАСТРОЙКИ ЗА PRIVATE REPOS
           config_allow_variant_repositories: yes
+          repositories_batch: 50
+          repositories_affiliations: owner, collaborator
           
-          # Плъгин за контрибютори (Класация)
+          # ПЛЪГИН ЗА КОНТРИБЮТОРИ
           plugin_contributors: yes
           plugin_contributors_contributions: yes
           plugin_contributors_sections: contributors
           plugin_contributors_categories: commits
           plugin_contributors_limit: 15
           
-          # Плъгин за хора (Аватари)
+          # ПЛЪГИН ЗА ХОРА (АВАТАРИ)
           plugin_people: yes
           plugin_people_types: contributors
           plugin_people_limit: 24
-          
-          # Настройки за обход на Private Repo
-          repositories_batch: 10
