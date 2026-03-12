@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src='https://gencloud.bg/img/logo_gencloud%202.png' alt='GenCloud Ltd | ERP + CRM, WMS, B2B, E-commerce, API, and more...'/>
+<img src='./gencloud-logo-trspr.png' style='max-width:650px;width:100%' alt='GenCloud Ltd | ERP + CRM, WMS, B2B, E-commerce, API, and more...'/>
 
-### GENCLOUD
+The cloud is our home
 
 ### ERP + CRM, WMS, B2B, E-commerce, APIs, AI Agents, ...
 
