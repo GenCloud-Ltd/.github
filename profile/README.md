@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src='./gencloud-logo-trspr.png' style='width:100%;max-width:640px !important' alt='GenCloud Ltd | ERP + CRM, WMS, B2B, E-commerce, API, and more...'/>
+<img src='./gencloud-logo-trspr.png' style='width:80%' alt='GenCloud Ltd | ERP + CRM, WMS, B2B, E-commerce, API, and more...'/>
 
 The cloud is our home
 
