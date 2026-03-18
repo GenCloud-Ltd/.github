@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="./gencloud-logo-trspr.png" width="640" alt="GenCloud Ltd | ERP + CRM, WMS, B2B, E-commerce, API, and more...">
+<img src="./gencloud-logo-trspr.png" width="640" alt="GenCloud Ltd | ERP + AI, CRM, WMS, B2B, E-commerce, API, and more...">
 
 The cloud is our home
 
-### ERP + CRM, WMS, B2B, E-commerce, APIs, AI Agents, ...
+### ERP + AI, CRM, WMS, B2B, E-commerce, API, and more...
 
 </div>
 
